@@ -1,8 +1,11 @@
 # UKParliamentData
 Playing around with the data from the UK parliament API.
 
+# API.R
+This code accesses the parliment API and writes it into an SQLite DB
+
 # Data Structure 
-The code will create an SQLite DB so the user can access/ query the data rather than continue to use the API or cvs's.
+The API.R code will create an SQLite database so the user can access/ query the data rather than continue to use the API or cvs's.
 
 Tables:
 Members - This holds details on the MPs 
