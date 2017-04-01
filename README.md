@@ -1,4 +1,4 @@
-# UKParliamentData
+## UKParliamentData
 Playing around with the data from the UK parliament API.
 
 # API.R
@@ -39,3 +39,6 @@ MPVotes - How MPs voted (if they voted)
   - MP ID
   - Vote ID
   - Vote
+
+# Preprocessing.R
+quick script to get correct data stucture of 2010 parliamnet for CF/ PCA
