@@ -1,10 +1,10 @@
-## UKParliamentData
+# UKParliamentData
 Playing around with the data from the UK parliament API.
 
-# API.R
+## API.R
 This code accesses the parliment API and writes it into an SQLite DB
 
-# Data Structure 
+## Data Structure 
 The API.R code will create an SQLite database so the user can access/ query the data rather than continue to use the API or cvs's.
 
 Tables:
@@ -40,5 +40,5 @@ MPVotes - How MPs voted (if they voted)
   - Vote ID
   - Vote
 
-# Preprocessing.R
+## Preprocessing.R
 quick script to get correct data stucture of 2010 parliamnet for CF/ PCA
