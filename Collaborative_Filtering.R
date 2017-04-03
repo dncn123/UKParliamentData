@@ -43,7 +43,7 @@ MPsimil <- matrix(nrow=length(vote_matrix$MPID),
 rownames(MPsimil) <- vote_matrix$MPID
 colnames(MPsimil) <- vote_matrix$MPID
 
-## Slightly slowly but can't do it in one as removing to NAs
+## Slightly slow but can't do it in one go as removing the NAs is unique to pairs of vectors
 for(i in 1:length(vote_matrix$MPID)){
   for(j in 1:length(vote_matrix$MPID)){
     MPsimil[i,j] <- getcosin(inver_vm,
